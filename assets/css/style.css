@@ -3,12 +3,9 @@
 
 }
 
-img:hover{
-    overflow: hidden;
-    object-fit: cover;
-    transform: scale(1.1) !important;
+
    
-}
+
 .icon:hover{
     color: blue !important;
 }
@@ -27,7 +24,7 @@ img:hover{
 .navbar{
     position: fixed !important ;
     width: 70%;
-    top: 40px;
+    top: 0px;
 }
 button{
     width: 50px;
@@ -38,4 +35,18 @@ button{
 }
 .bag p{
 margin: 30px;
+}
+
+.card-title:hover{
+color: orange;
+}
+
+.nike-text{
+    margin-top: 300px;
+}
+.card{
+    border: none;
+}
+.shoes{
+    transform: translate(-50%);
 }
